@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lounge do Açai</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+
+<body>
+  <header>
+    <div class="caixote">
+      <div><img src="imagens/logo.png" alt=""></div>
+      <nav class="menu-nav">
+        <ul class="menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#eventos">Realizar Eventos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div><a href="#" class="carrinho"><img src="imagens/carrinho.svg" alt=""></a></div>
+      </nav>
+    </div>
+  </header>
+  <section class="slides">
+    <h1>Açai Puro Paraense</h1>
+    <div class="produtos-pai" data-slide="principal">
+      <div><img src="imagens/slide1.png" alt=""></div>
+      <div><img src="imagens/slide2.png" alt=""></div>
+      <div><img src="imagens/slide3.png" alt=""></div>
+      <div><img src="imagens/slide4.png" alt=""></div>
+    </div>
+    <a href="#" class="btn">Fazer Pedido</a>
+  </section>
+  <div class="sobre-nos" id="sobre">
+    <h1 class="hist">SOBRE NÓS</h1>
+    <p class="sobre">Nosso objetivo é oferecer o<br> melhor do açaí paraense para<br> nossos clientes, embasado em <br> valores e compromisso <br> socioambiental, ética e <br>responsabilidade.</p>
+  </div>
+
+  <div class="cardapio-cor">
+    <h2>Cardápio</h2>
+    <div class="cardapio">
+    </div>
+  </div>
+  <h2>Carrinho:</h2>
+  <div id="carrinho">
+  </div>
+  <script src="script.js"></script>
+
+  <div class="eventos" id="eventos">
+
+    <h1>Realizar eventos</h1>
+    <div class="limpar-float">
+      <div id="conteudo-left">
+        <ul class="eventos-mostrar" data-slide="realizar-evento">
+          <li><img src="imagens/evento2.png" alt=""></li>
+          <li><img src="imagens/evento3.png" alt=""></li>
+          <li><img src="imagens/açaislide.jpeg" alt=""></li>
+        </ul>
+      </div>
+      <div id="conteudo-right">
+        <h2>Leve o Lounge <br> para o seu evento</h2>
+        <div class="btn"> <a href="https://bit.ly/oloungedoacai" target="_black">Entre em contato</a></div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer id="contato">
+    <div class="container">
+      <p class="copy">© 2020 Lounge açai. Alguns Direitos Reservados</p>
+      <div class="delivery">
+        <p class="deli">Delivery</p>
+        <ul class="apps">
+          <li><a href="https://www.ifood.com.br/delivery/recife-pe/lounge-do-acai-santo-amaro/cb184037-8a08-44a1-b860-453af4ba8cfc" target="_blank"><img src="imagens/ifood.png" alt=""></a></li>
+          <li><a href="https://www.rappi.com.br/recife/restaurantes/lounge-do-acai" target="_blank"><img src="imagens/rappi.png" alt=""></a></li>
+          <li><a href="#" target="_blank"><img src="imagens/99-food.png" alt=""></a></li>
+          <li><a href="https://www.ubereats.com/br/recife/food-delivery/lounge-do-acai/7m1FisROS5eVIfkrO8aliA" target="_blank"><img src="imagens/uber-eats.png" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="redes-sociais">
+        <p>Redes Sociais</p>
+        <div class="redes">
+          <a href="https://pt-br.facebook.com/loungedoacai" target="_blank"><img src="imagens/logo-facebook.svg" alt=""></a>
+          <a href="https://www.instagram.com/oloungedoacai/" target="_blank"><img src="imagens/insta.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- <footer id="contato">
+    <div class="container">
+      <div class="filho descer">
+        <p>© 2020 Lounge açai. Alguns Direitos Reservados</p>
+      </div>
+      <div class="filho">
+        <p class="subli">Delivery</p>
+        <div class="imagem-pai">
+          <div class="imagem-filho"><a href="https://www.rappi.com.br/recife/restaurantes/lounge-do-acai" target="_blank" class="link"><img src="imagens/rappi.png" alt=""></a></div>
+          <div><a href="https://www.ifood.com.br/delivery/recife-pe/lounge-do-acai-santo-amaro/cb184037-8a08-44a1-b860-453af4ba8cfc" target="_blank" class="link"><img src="imagens/ifood.png" alt=""></a></div>
+          <div><a href="https://www.ubereats.com/br/recife/food-delivery/lounge-do-acai/7m1FisROS5eVIfkrO8aliA" target="_blank" class="link"><img src="imagens/uber-eats.png" alt=""></a></div>
+          <div><a href="#" class="link"><img src="imagens/99-food.png" alt=""></a></div>
+        </div>
+      </div>
+      <div class="filho">
+        <p class="sublinhado">Redes Sociais</p>
+        <div class="rede-social">
+          <div class="rede-filho">
+            <a href="https://pt-br.facebook.com/loungedoacai" target="_blank" class="face"><img src="imagens/logo-facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/oloungedoacai/" target="_blank"><img src="imagens/insta.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+  <script src="./js/dist/simple-slide.js"></script>
+  <script src="acaijs/script.js"></script>
+</body>
+
+</html>
